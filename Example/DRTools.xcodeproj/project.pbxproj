@@ -23,6 +23,19 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		89BACE1C10BB770D81F9F9EE /* Pods_DRTools_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CF4219075B782FD8D0C6BBE /* Pods_DRTools_Example.framework */; };
+		C06695B324100BE800F735D8 /* LFFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C066959424100BE500F735D8 /* LFFileManager.m */; };
+		C06695B524100BE800F735D8 /* LFAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = C066959824100BE500F735D8 /* LFAlertController.m */; };
+		C06695B624100BE800F735D8 /* LFKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = C066959924100BE500F735D8 /* LFKeyChain.m */; };
+		C06695B724100BE800F735D8 /* LFFMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C066959A24100BE500F735D8 /* LFFMDBManager.m */; };
+		C06695B824100BE800F735D8 /* LFProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C066959C24100BE500F735D8 /* LFProgressHUD.m */; };
+		C06695B924100BE800F735D8 /* LFPermissionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C066959D24100BE600F735D8 /* LFPermissionManager.m */; };
+		C06695BA24100BE800F735D8 /* LFRSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = C066959E24100BE600F735D8 /* LFRSAEncryptor.m */; };
+		C06695BB24100BE800F735D8 /* LFTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C06695A024100BE600F735D8 /* LFTimeManager.m */; };
+		C06695BC24100BE800F735D8 /* LFAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C06695A124100BE600F735D8 /* LFAudioTool.m */; };
+		C06695BD24100BE800F735D8 /* LFUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = C06695A324100BE600F735D8 /* LFUserDefaults.m */; };
+		C06695BE24100BE800F735D8 /* LFImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C06695A724100BE700F735D8 /* LFImagePickerController.m */; };
+		C06695C024100BE800F735D8 /* LFMessageDistributionCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = C06695B124100BE700F735D8 /* LFMessageDistributionCenter.m */; };
+		C06695C124100BE800F735D8 /* LFReadBundleTools.m in Sources */ = {isa = PBXBuildFile; fileRef = C06695B224100BE800F735D8 /* LFReadBundleTools.m */; };
 		D27322EB4D9CC06279F23BC9 /* Pods_DRTools_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83E46D13F01E8CA9CCCEA0C9 /* Pods_DRTools_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -61,12 +74,40 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		74AF12A5F0447104BEA67B13 /* DRTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DRTools.podspec; path = ../DRTools.podspec; sourceTree = "<group>"; };
-		81343D8D2A911B884309CB7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		74AF12A5F0447104BEA67B13 /* DRTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DRTools.podspec; path = ../DRTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		81343D8D2A911B884309CB7E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		83E46D13F01E8CA9CCCEA0C9 /* Pods_DRTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DRTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C066959324100B9600F735D8 /* DRToolsHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRToolsHeader.h; sourceTree = "<group>"; };
+		C066959424100BE500F735D8 /* LFFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFFileManager.m; sourceTree = "<group>"; };
+		C066959524100BE500F735D8 /* LFAudioTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFAudioTool.h; sourceTree = "<group>"; };
+		C066959724100BE500F735D8 /* LFReadBundleTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFReadBundleTools.h; sourceTree = "<group>"; };
+		C066959824100BE500F735D8 /* LFAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFAlertController.m; sourceTree = "<group>"; };
+		C066959924100BE500F735D8 /* LFKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFKeyChain.m; sourceTree = "<group>"; };
+		C066959A24100BE500F735D8 /* LFFMDBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFFMDBManager.m; sourceTree = "<group>"; };
+		C066959B24100BE500F735D8 /* LFKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFKeyChain.h; sourceTree = "<group>"; };
+		C066959C24100BE500F735D8 /* LFProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFProgressHUD.m; sourceTree = "<group>"; };
+		C066959D24100BE600F735D8 /* LFPermissionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFPermissionManager.m; sourceTree = "<group>"; };
+		C066959E24100BE600F735D8 /* LFRSAEncryptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFRSAEncryptor.m; sourceTree = "<group>"; };
+		C066959F24100BE600F735D8 /* LFImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFImagePickerController.h; sourceTree = "<group>"; };
+		C06695A024100BE600F735D8 /* LFTimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFTimeManager.m; sourceTree = "<group>"; };
+		C06695A124100BE600F735D8 /* LFAudioTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFAudioTool.m; sourceTree = "<group>"; };
+		C06695A224100BE600F735D8 /* LFAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFAlertController.h; sourceTree = "<group>"; };
+		C06695A324100BE600F735D8 /* LFUserDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFUserDefaults.m; sourceTree = "<group>"; };
+		C06695A424100BE600F735D8 /* LFMessageDistributionCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFMessageDistributionCenter.h; sourceTree = "<group>"; };
+		C06695A624100BE700F735D8 /* LFFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFFileManager.h; sourceTree = "<group>"; };
+		C06695A724100BE700F735D8 /* LFImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFImagePickerController.m; sourceTree = "<group>"; };
+		C06695A824100BE700F735D8 /* LFRSAEncryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFRSAEncryptor.h; sourceTree = "<group>"; };
+		C06695A924100BE700F735D8 /* LFUserDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFUserDefaults.h; sourceTree = "<group>"; };
+		C06695AA24100BE700F735D8 /* LFFMDBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFFMDBManager.h; sourceTree = "<group>"; };
+		C06695AB24100BE700F735D8 /* LFTimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFTimeManager.h; sourceTree = "<group>"; };
+		C06695AD24100BE700F735D8 /* LFProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFProgressHUD.h; sourceTree = "<group>"; };
+		C06695AF24100BE700F735D8 /* LFPermissionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFPermissionManager.h; sourceTree = "<group>"; };
+		C06695B024100BE700F735D8 /* LFResultCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFResultCode.h; sourceTree = "<group>"; };
+		C06695B124100BE700F735D8 /* LFMessageDistributionCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFMessageDistributionCenter.m; sourceTree = "<group>"; };
+		C06695B224100BE800F735D8 /* LFReadBundleTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFReadBundleTools.m; sourceTree = "<group>"; };
 		D5F8C1FCA3AF8E39AE43EEE5 /* Pods-DRTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DRTools_Example.release.xcconfig"; path = "Target Support Files/Pods-DRTools_Example/Pods-DRTools_Example.release.xcconfig"; sourceTree = "<group>"; };
-		E9E6F3B49F1810FFA7B27E06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E9E6F3B49F1810FFA7B27E06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +144,6 @@
 				1BA012706E4B71CC91E70C0A /* Pods-DRTools_Tests.debug.xcconfig */,
 				32B54D32B8D61BE8A4A3EAAA /* Pods-DRTools_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +189,34 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* DRViewController.h */,
 				6003F5A6195388D20070C39A /* DRViewController.m */,
+				C066959324100B9600F735D8 /* DRToolsHeader.h */,
+				C06695B024100BE700F735D8 /* LFResultCode.h */,
+				C06695A224100BE600F735D8 /* LFAlertController.h */,
+				C066959824100BE500F735D8 /* LFAlertController.m */,
+				C066959524100BE500F735D8 /* LFAudioTool.h */,
+				C06695A124100BE600F735D8 /* LFAudioTool.m */,
+				C06695A624100BE700F735D8 /* LFFileManager.h */,
+				C066959424100BE500F735D8 /* LFFileManager.m */,
+				C06695AA24100BE700F735D8 /* LFFMDBManager.h */,
+				C066959A24100BE500F735D8 /* LFFMDBManager.m */,
+				C066959F24100BE600F735D8 /* LFImagePickerController.h */,
+				C06695A724100BE700F735D8 /* LFImagePickerController.m */,
+				C066959B24100BE500F735D8 /* LFKeyChain.h */,
+				C066959924100BE500F735D8 /* LFKeyChain.m */,
+				C06695A424100BE600F735D8 /* LFMessageDistributionCenter.h */,
+				C06695B124100BE700F735D8 /* LFMessageDistributionCenter.m */,
+				C06695AF24100BE700F735D8 /* LFPermissionManager.h */,
+				C066959D24100BE600F735D8 /* LFPermissionManager.m */,
+				C06695AD24100BE700F735D8 /* LFProgressHUD.h */,
+				C066959C24100BE500F735D8 /* LFProgressHUD.m */,
+				C066959724100BE500F735D8 /* LFReadBundleTools.h */,
+				C06695B224100BE800F735D8 /* LFReadBundleTools.m */,
+				C06695A824100BE700F735D8 /* LFRSAEncryptor.h */,
+				C066959E24100BE600F735D8 /* LFRSAEncryptor.m */,
+				C06695AB24100BE700F735D8 /* LFTimeManager.h */,
+				C06695A024100BE600F735D8 /* LFTimeManager.m */,
+				C06695A924100BE700F735D8 /* LFUserDefaults.h */,
+				C06695A324100BE600F735D8 /* LFUserDefaults.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -258,6 +326,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -325,10 +394,18 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-DRTools_Example/Pods-DRTools_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/DRTools/DRTools.framework",
+				"${BUILT_PRODUCTS_DIR}/FMDB/FMDB.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/YIIFMDB/YIIFMDB.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DRTools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FMDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YIIFMDB.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -364,9 +441,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C06695B724100BE800F735D8 /* LFFMDBManager.m in Sources */,
 				6003F59E195388D20070C39A /* DRAppDelegate.m in Sources */,
+				C06695BA24100BE800F735D8 /* LFRSAEncryptor.m in Sources */,
+				C06695BC24100BE800F735D8 /* LFAudioTool.m in Sources */,
+				C06695B624100BE800F735D8 /* LFKeyChain.m in Sources */,
+				C06695BE24100BE800F735D8 /* LFImagePickerController.m in Sources */,
 				6003F5A7195388D20070C39A /* DRViewController.m in Sources */,
+				C06695B924100BE800F735D8 /* LFPermissionManager.m in Sources */,
+				C06695C024100BE800F735D8 /* LFMessageDistributionCenter.m in Sources */,
+				C06695BB24100BE800F735D8 /* LFTimeManager.m in Sources */,
+				C06695B524100BE800F735D8 /* LFAlertController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				C06695C124100BE800F735D8 /* LFReadBundleTools.m in Sources */,
+				C06695B824100BE800F735D8 /* LFProgressHUD.m in Sources */,
+				C06695B324100BE800F735D8 /* LFFileManager.m in Sources */,
+				C06695BD24100BE800F735D8 /* LFUserDefaults.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
