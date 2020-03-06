@@ -9,42 +9,39 @@
 /* Begin PBXBuildFile section */
 		0020D0FA0DEF333D4011DBAD96F0FE37 /* YIIParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = D8AAE0A2E85DA719C54A5DDE444948E9 /* YIIParameters.m */; };
 		02C1E19ED5A093EE20D4D5CF34751E51 /* Speech.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2557518258AA7A966DE02EA2F657713 /* Speech.framework */; };
-		09A7643875B82A74AD58E3F270EC5F4F /* LFUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = DD4CBBC145AC682F23073A8E00E07D6E /* LFUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		09EDB3300D7C964C7C8D5B8539EB0D15 /* LFTimeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C3DBF537A2C230C0F62B6803C3CECE14 /* LFTimeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		075F20038D28BC3BCDDBAC357B4F6952 /* LFFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A44D57C3F50C21BBC47ECB3B324BEA87 /* LFFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0A46597F24AFD00B0410F7373C13ABAC /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = F9FB817880A6CA67DF3B1236FCC27781 /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0AD8EE32390BFCA92C251058BA94824A /* LFKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FED9BC40C4E6FC0BE7C09F40149E3E0 /* LFKeyChain.m */; };
-		0F94F69E24024456FE2101B68AF5DEEC /* LFPermissionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 96ECA071226F04C5CAD9BD428144D503 /* LFPermissionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		14DD5F32E67BB1A3EF73F3A35234817F /* YIIFMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AEC78586E97859E209702BA38DC21D99 /* YIIFMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AEF0A4EE237C32CF4D5EE8FF1DFBE13 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A75DE87563F033BDE5D986C7F8FD0984 /* AVFoundation.framework */; };
 		1B47F75A831376C95D8C5C9DCDC46A43 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2107548F20252CD1D4A008F5ACE5C578 /* Foundation.framework */; };
-		281363B79F20152CFCAA0661C3658ADF /* LFReadBundleTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 670A53FA25B83630D5F654571E02364E /* LFReadBundleTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1F6AC437DA5A5C2AF68B47C1AB387D49 /* LFMessageDistributionCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = DA842519042B0F960A0A8A129E739C73 /* LFMessageDistributionCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25C8CD8888A413416B5FC98A3CB34C5C /* LFTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DAF6BF6CF2435D2CBC3EE5F679D6682F /* LFTimeManager.m */; };
 		28F1E02BF11D3A02742B3AA4F5A60758 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E4354F93C44820B1D99AD301438042E6 /* NSString+MJExtension.m */; };
 		2E6CB9E74E6E0A296B82E6C811C5D954 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D0A777A12BE51A7B7DDB02D3A3C987 /* Security.framework */; };
 		3148B9B0A8AD5311A06D13E236FAA061 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B78359715FDDC171F9498A619FCB5C3D /* FMDatabaseAdditions.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		34AA2A20C74FCC0C5B3A1F220E2DA5FF /* Pods-DRTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CFA83D52DF504A296E8F66B14E7742A /* Pods-DRTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34AF9E2B0F2C9A30565AA75695F19790 /* LFImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EDA3D679C0205467C697E5EE662B62B /* LFImagePickerController.m */; };
 		363198D6705B8CDC5E623F7BFDEBBB4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2107548F20252CD1D4A008F5ACE5C578 /* Foundation.framework */; };
-		36C68CC40A495D3709C6793EDCEC34AA /* LFMessageDistributionCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D1BFF9EA36A505DFC5A4C94D5599F3EC /* LFMessageDistributionCenter.m */; };
 		3E8EADB96A2CD40AB24151C282032C8B /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFD2ABF41D8F019A31BC39CD977B91 /* MBProgressHUD-dummy.m */; };
 		3F8DCFA9B3392BA883B43A942E4AFBB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2107548F20252CD1D4A008F5ACE5C578 /* Foundation.framework */; };
 		44A6341987A78CBC7B378F78CE7731D1 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7288F55BEF22A4638D18E6595B68FF /* FMDatabaseQueue.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		45B720960EC5A3BE0062F8EB163D71B1 /* YIIFMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = B4BFC1D0A287CF95BEE178E55C36F9D0 /* YIIFMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48C5C5581921C7862F0E289B71594ACB /* DRToolsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A82E8CDB5561B9FE2AC671784F5109A /* DRToolsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4A8B9C1CC850ED3909B0088E1F3513E0 /* LFKeyChain.h in Headers */ = {isa = PBXBuildFile; fileRef = B12D1AB45B16D837D6EF9493C928131C /* LFKeyChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4AC17A4CFBB0C1D3EBD9C2B8059A32E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2107548F20252CD1D4A008F5ACE5C578 /* Foundation.framework */; };
+		4B50D138134285CD953A8257B09EDBB2 /* LFKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EABEA071B28944D127C514A88FECDB8 /* LFKeyChain.m */; };
 		4D646553217E1CC65190DA2AF327B06F /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 614C632CE8C7B27D391628776A8B5A98 /* MJExtension-dummy.m */; };
-		4E560B2A978799ABCA24CFAE5F39FCEC /* LFKeyChain.h in Headers */ = {isa = PBXBuildFile; fileRef = BF5D5470392CC30FF92B579B5756A9FA /* LFKeyChain.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4F591D3A35240D1B970C4398B6387B23 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 08EA9CF1DB96C30EC6A050B146612C25 /* MJProperty.m */; };
 		52AEF1CF7C36CC7D0949B8F13740E32A /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A9E17A2021EFDA42581A7EC1927AEA5 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		54069264730D28159C25ED2A568AA391 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DA27693CCDFCA3BE3F2BFDDEE431DA2 /* FMResultSet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		575B8F417CADAE025776315EA409F929 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 5485CC0648416A049292BA63E054811A /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58D1D0FCEE30512FAC7F63D044C93617 /* Pods-DRTools_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FFFB855CEFCFC94E3B2CAB15A50B1877 /* Pods-DRTools_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59D3EC6E5D7B18D68643F05BF907043A /* LFPermissionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D00E31BB434D714A719C582D71B4097 /* LFPermissionManager.m */; };
+		5AB4323C97BF884A0988F035B08B9EAA /* LFAudioTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 10213D795626F75EE063125DDB10A036 /* LFAudioTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F33E90F7C275F99EAFBE563DF8C61E7 /* YIIFMDB.m in Sources */ = {isa = PBXBuildFile; fileRef = 064FB10F15F9B4F243A11F4A97FB684B /* YIIFMDB.m */; };
 		614933E3C20CA7F9EAAAAE99BD69B2B2 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A8057FDE55F82A0359D53CE65E309B /* CoreServices.framework */; };
 		66C5BF968394F8BC940222C55F19DB3E /* YIIFMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5D23A5D79524495028A260F293C99A /* YIIFMDB-dummy.m */; };
-		67F4EB7A48F89085D9DDEA08A8981EF0 /* LFUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB7E94536331659E7FE4BDDED151584 /* LFUserDefaults.m */; };
-		6B1F66F85E77104B495F2D97176C2FB2 /* LFProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D1E8AB1FFA7C67D4F230E58E5AC8CA /* LFProgressHUD.m */; };
 		6F245395002B0A723D3620EB815C2CA7 /* MJExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF62EFCD723515D351980EE766E03CFA /* MJExtension.framework */; };
 		6F3F52C6D9622B70ED707FD60A938D8D /* FMDatabase.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B78819EFD671C0134E236E5936FF624 /* FMDatabase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7016E26BEECF26BAC2D7DD86C345A1B9 /* LFFMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AF4FD0D182AA5F02F36AF1861014A4A7 /* LFFMDBManager.m */; };
 		7414005FE65F798D77FA3C2A456AE715 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = B868999B70D106BE5028998DBF903565 /* MJFoundation.m */; };
 		75FA42C7759574696CACA6FE536BF428 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = B48F10C0A14FE193AE6751D7C2C0DF8F /* MJPropertyType.m */; };
 		760E4666603F4B7444B9AA3AD8BCFB58 /* Pods-DRTools_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFDFD39475DCE56342CEA99CBF57E010 /* Pods-DRTools_Tests-dummy.m */; };
@@ -53,42 +50,46 @@
 		7B894A27990489C9E51DAE3B6716B6B9 /* FMDatabaseAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7A6DDBFACBDDA619E63F951E83AD12 /* FMDatabaseAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7CB64E594BBA68471640824F6B1F17B8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D42B8A95057D1F28540AA011C480B3 /* CoreFoundation.framework */; };
 		7CC01DA97B222DF0E2D97DE8A4BD5E5B /* FMDB.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B5DE24E90D181DEF8B92671AB2977C5 /* FMDB.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EB69C62C9AF8AE06F5F6561EECF15A0 /* LFImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 015D5CC300315E232DAFB7749ADB5FD2 /* LFImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7F0C2F6684C28796F5B612671D44DCD2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2107548F20252CD1D4A008F5ACE5C578 /* Foundation.framework */; };
 		7FCE82E7C1F10D211D4D977FD3BE0EA5 /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E6B4929DA08A862EE77BAC19E16DC72 /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8172D1FD53EB9003866ADCDADAFF1CE9 /* LFAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B6E6213879BBEBD887786000B9061E5E /* LFAudioTool.m */; };
 		86C5D7510ABBAF68C18CA4B08EB5E083 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2AB6D94B8BD0B79D2DA956DD84E507 /* Contacts.framework */; };
-		8F3895CAE1216F3445D74A6827F28422 /* LFResultCode.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D989B8047E5C665E62FB0857EAB217E /* LFResultCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8F727A6441F6B33C5A0489BB3897FAEF /* LFPermissionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D38C55F1A63E9BF89C57AF04E0AE1116 /* LFPermissionManager.m */; };
-		93B8F5C7D40CBE1ECC357B0B6C1E40FF /* LFImagePickerController.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A482B61462D51FF89895C1F0D08A80A /* LFImagePickerController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B060D32F248782E7ACCAD7864F18C36 /* LFFMDBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AC95E182FC0903DDE4045E333FDA938F /* LFFMDBManager.m */; };
+		94270C6E0DAFB14767EF0669E8BAE7B1 /* LFAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA92966FD75077DF03C75A9433C3D10C /* LFAlertController.m */; };
+		978B8BD0A3A834095005793E4FD3DA21 /* LFMessageDistributionCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = B4A9760CFF9C2A7800EDBD0A92A30768 /* LFMessageDistributionCenter.m */; };
 		98C2D3B35628D219BA9DA01B38DD2420 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = C82448062AB57FF3E8B43C470F1BC75B /* MBProgressHUD.m */; };
 		9B89424264AEAEABC8B0E6FF30DBAC66 /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = CC0A51034E6625B2411927D7FEE14840 /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9B903D5A6916B3989D8960424E44F476 /* DRTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C2D029EBB4008E25E6F0D176AEBB336A /* DRTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9C023E5F2CC34D10DDAD7DB42B5BCFDA /* LFFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F49DC210C015D9EE84BBC48A7846DA8 /* LFFileManager.m */; };
-		A2087B3CC2C40CD2A11E90FD46E57361 /* LFRSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A711EDBF3FAD0D63386EBFC4CB7DB2 /* LFRSAEncryptor.m */; };
+		9B903D5A6916B3989D8960424E44F476 /* DRTools-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CCFF0E5DD8B127621A5141B0344A235D /* DRTools-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1A63DD8DE94BB4AF25732A0039EFD61 /* LFRSAEncryptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 77B84C7604903D2079A59E3568DB7092 /* LFRSAEncryptor.m */; };
 		A57CB8318E8FB9231E7F5C022D507B0E /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C38755DFAFCCC421D758A62F4E2427 /* AudioToolbox.framework */; };
 		A5C702E20DE023434A1648773F414577 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171B819B50D1A2729CF349C41C0FC5DF /* EventKit.framework */; };
-		A5F710D1C4966DD4288487047B4A2E61 /* LFMessageDistributionCenter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A7C72A81A69AB294144ADB844DBD059 /* LFMessageDistributionCenter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5F76802BB9128DD828AA976FE3F3EE3 /* LFReadBundleTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 04613E9ADE9D603CB62389C85B1ADCFE /* LFReadBundleTools.m */; };
-		AB62A2DBFE6E73F63506A519010BA2E5 /* LFTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 007666FB63F65696CBEA02B2BA7991D2 /* LFTimeManager.m */; };
+		A60074A454AF635150F530C4313156F9 /* LFProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB5BAFB4CBF1769538E8EEA7CBE5DCA /* LFProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1095D4E62FB6FF62B022A6415E7B3EA /* LFRSAEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = ECB04A3A6EEBBAB1A12A690582E15E80 /* LFRSAEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B3BDB53B87BD4E03EDF15EBE6CB94E04 /* YIIParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = CBA6934D92F3B38514EEA7C9DABC409D /* YIIParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B4CC5987F2DF895D19CC78909117D6BD /* LFFMDBManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 449552573A0440748ED76B526535E71D /* LFFMDBManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B78C343215509A9C26A99535C1069426 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 17CF4FD76E0341855338FBC17C0940AC /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B7FE9E376BCA76E899EE234D9769A6E9 /* FMDB-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EB9D82B72715176354048A1E7934749 /* FMDB-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9081726FA291B19FE5ED19609F9BE88 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 9ED32EDD5F9CBFA29F876B94DBFB2372 /* MJPropertyKey.m */; };
 		B95D4419A1BCA76F470122D8A5296198 /* FMDatabasePool.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D21B270FAAE29936EB7C4B7A63EFF1F /* FMDatabasePool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BAFAAD63CA780BAF46177F6B125DA57C /* LFAudioTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D3E4CD5B82A6D5F60F1136AB229D2D6 /* LFAudioTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE8E61F531DA8B161C7DA7F7535CA13B /* LFFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A3D67732E7A131CE99A288B2204E122F /* LFFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEAB9F3B9CBAB89050983AEDC04DD06A /* LFReadBundleTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 61C2E01DE0C2A14A7C78983FAF8B6F6C /* LFReadBundleTools.m */; };
+		C0ADF1358B636E6EE7E5A1CEC754F429 /* LFImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D4F5241D2BF35064E410DCED3F9B398 /* LFImagePickerController.m */; };
 		C0FA85125AB9ED7AA051A909251D106D /* YIIFMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2FD9F6F39F6548EDDA2F2D07EF0994E /* YIIFMDB.framework */; };
 		C108477843FAE5D91D3409311E6B739C /* FMDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 107915485B6BEA7616B83A68404A5221 /* FMDB.framework */; };
+		C1086F7D294D381D36008776967D1C6B /* LFReadBundleTools.h in Headers */ = {isa = PBXBuildFile; fileRef = CE6FD22160EED99F71F1EBC52DFB4933 /* LFReadBundleTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C1EB592B36CADFF69093C1E74FCE23E3 /* FMDB-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A630AC71AFC8BC86E93069D4FA3B018F /* FMDB-dummy.m */; };
 		C53E92198FAF6337A12C89D5825AE166 /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BBE7A9DD9650D06700C29BD0BF78E0 /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D2C627A6B388CB0DF95C9FEC9263A36C /* LFAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = FFC5BBC199FE6C662DB0FEB6E83EA85E /* LFAlertController.m */; };
-		D4B5D8692594DEA375DDBF99218B6FCA /* LFRSAEncryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = AA1B4485DABEF724715233E59F1BA131 /* LFRSAEncryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D57B3D25F0A47D96C1DF7B7CF6D85BAA /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A24F10CBF1AAD2E485CCE4A73F80BC /* Photos.framework */; };
 		D5BEE21499292ECAAAC1E3C26505A241 /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 22C8053284562C353694672028AD7B79 /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6238E3A9840E9833694E46E48EEEAB2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D4B30E6F60C258A5D43474EE30CEC78 /* QuartzCore.framework */; };
+		D644A7FB6B5C8083A898A5A35EA3169A /* LFAudioTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E1D56419BD73E6BD7A13C293F2096907 /* LFAudioTool.m */; };
+		D6787048ED21AB59A162923EA421856F /* LFFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBE31DC6BC610F1470C946AF8598179F /* LFFileManager.m */; };
+		D6D21A574E47ABEC43E039B9282FA0E2 /* LFUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = F22A11FB58CA1A390863C6D175ACAD7D /* LFUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D83F31BB0A63EDDEE562321F3C507AC2 /* LFProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F35EF351FA55111A12E2B08599E3C73D /* LFProgressHUD.m */; };
+		DA2642CDDFEC236E4CAB14DF12FC8CCA /* LFPermissionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F3D987816C4EF7E4863AA97157DABC0A /* LFPermissionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DE03DF34F728A3F25CA1258E4C383A1E /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EF3CDEFA5C1FEE98F43DCFDB26FA231 /* MJExtensionConst.m */; };
+		E2BE155C5F085D4A546576B64F6765BD /* LFAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E2109DFF6C5F289258DCEB6DDFBDF06 /* LFAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E2E195E81FF9DD2A10FEC1629D6F917B /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 0880FCA70D67829297469343FF2358D2 /* FMDatabase.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		E4731E7DBBF0CEF5179E151C8D7CDB5B /* LFFMDBManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 09E0BE5D4927A88EDBA10F1D2BD8C32D /* LFFMDBManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E65819A45FE3AE95D1233BA4B3E10394 /* LFTimeManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A5C211623A2698BF8DE7F4967328B99 /* LFTimeManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6FDB8D452FC36895E5F206B3967BC59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2107548F20252CD1D4A008F5ACE5C578 /* Foundation.framework */; };
 		E84999688610E5F304B3E38172BFB23B /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = D816E6F3F6826053701381CD74695045 /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E8E590CB1DD888B275A4ADF8041D1344 /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = FE91EDBEF801BD5F364D1C52FDD01D32 /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -97,19 +98,18 @@
 		EBBB7DE211F10F4198D588036E2FF380 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 838B3D8C93F21652D8BC29B95AD287B9 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EC872E2209F8AC7556C47197B4934835 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2107548F20252CD1D4A008F5ACE5C578 /* Foundation.framework */; };
 		ED983B27C95639F8548CCCCB478CB5F9 /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A3C778DC8B8C0E32AF54E03A5080BE41 /* NSObject+MJClass.m */; };
-		EE3412330BFC168B087CC23835AC2C43 /* DRTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C35C38F29789CC14ADFEFDC79A3CB5 /* DRTools-dummy.m */; };
-		F09DD04EC8919A04F0AA471ABEAC140F /* LFAlertController.h in Headers */ = {isa = PBXBuildFile; fileRef = B6ADD6360A86A0BB60DA94EF6853C482 /* LFAlertController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1B2E9F6ADA11214A9FEBD19ACBD4FE5 /* LFProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 9835A1D9D7EF8EB6B5147480A2F7F7C6 /* LFProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE3412330BFC168B087CC23835AC2C43 /* DRTools-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 87D746530FC5CFE569F34C025C35657D /* DRTools-dummy.m */; };
 		F288A537687AB207589E2703B278A448 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D02EE8E245DAA6A791F1C82ED762485F /* UIKit.framework */; };
 		F2CC6B2C16960EE1CA2EA068B5C98219 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 424D06DC6C4A69EB9BEC1AD8D09AC716 /* NSObject+MJProperty.m */; };
+		F5F47B947B41B13478DC7335AD449F83 /* LFResultCode.h in Headers */ = {isa = PBXBuildFile; fileRef = EA0AA9CF1F56C468A34ACB1EDD980F33 /* LFResultCode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F73DE0FB36A71CECDE9A623286BBA38A /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 840703F62395E0F8B0F3FE4F571D65E7 /* FMDatabasePool.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		F7829D31312B0F30B0B421A588FE65B4 /* DRToolsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BDFF33589E6B4E8DE2BC27ABF7775344 /* DRToolsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F89CAEBC06B751E0F09B1EE7FC119CB8 /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = E0A0BD6707C3FF8478366EA6E7A35895 /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F8A6A9E0E3339F5F2665B64CD473A54D /* FMDatabaseQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 236219B3127308B151B6501D4FBDFB21 /* FMDatabaseQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F9A0831CAF3D97407ACF8F06CF6C75E1 /* Pods-DRTools_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7320DBBFE6EA54F0093E5D1A761CCA6B /* Pods-DRTools_Example-dummy.m */; };
 		F9E0A285B4441B18673D128EF35B0FCA /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 981FAAC10A382BFAB7BF862B71D448BD /* NSObject+MJCoding.m */; };
 		FB505BBE56D86751B08F15DA9EE7A952 /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = AF7E92E8F70A9913AEA04ACA16A5E17F /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FC0BC8C76E3279D6E31F1FA4B87837A6 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 50404713AFE28330431883EE033F5FF7 /* NSObject+MJKeyValue.m */; };
+		FDC4F62E64E3AC0E1B265DE07AA338A5 /* LFUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = AC03CDDE2D2CB11A9979B9F56309ADE3 /* LFUserDefaults.m */; };
 		FE7109235232089238CE22740E551A8F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FFDB39669A57FAF401C38F5C4C0985 /* CoreGraphics.framework */; };
 /* End PBXBuildFile section */
 
@@ -187,84 +187,86 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		007666FB63F65696CBEA02B2BA7991D2 /* LFTimeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFTimeManager.m; path = DRTools/0.0.1/LFTimeManager.m; sourceTree = "<group>"; };
-		04613E9ADE9D603CB62389C85B1ADCFE /* LFReadBundleTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFReadBundleTools.m; path = DRTools/0.0.1/LFReadBundleTools.m; sourceTree = "<group>"; };
+		015D5CC300315E232DAFB7749ADB5FD2 /* LFImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFImagePickerController.h; path = DRTools/0.0.2/LFImagePickerController.h; sourceTree = "<group>"; };
 		064FB10F15F9B4F243A11F4A97FB684B /* YIIFMDB.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YIIFMDB.m; path = YIIFMDB/YIIFMDB/YIIFMDB.m; sourceTree = "<group>"; };
 		08744A7DB6FFD8BDF92642AB3CE994F8 /* Pods_DRTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DRTools_Example.framework; path = "Pods-DRTools_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0880FCA70D67829297469343FF2358D2 /* FMDatabase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabase.m; path = src/fmdb/FMDatabase.m; sourceTree = "<group>"; };
 		08EA9CF1DB96C30EC6A050B146612C25 /* MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJProperty.m; path = MJExtension/MJProperty.m; sourceTree = "<group>"; };
-		0D3E4CD5B82A6D5F60F1136AB229D2D6 /* LFAudioTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFAudioTool.h; path = DRTools/0.0.1/LFAudioTool.h; sourceTree = "<group>"; };
+		09E0BE5D4927A88EDBA10F1D2BD8C32D /* LFFMDBManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFFMDBManager.h; path = DRTools/0.0.2/LFFMDBManager.h; sourceTree = "<group>"; };
+		10213D795626F75EE063125DDB10A036 /* LFAudioTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFAudioTool.h; path = DRTools/0.0.2/LFAudioTool.h; sourceTree = "<group>"; };
 		107915485B6BEA7616B83A68404A5221 /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		124B90F351879BDAE426217F2E2CBAA9 /* FMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.release.xcconfig; sourceTree = "<group>"; };
 		171B819B50D1A2729CF349C41C0FC5DF /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/EventKit.framework; sourceTree = DEVELOPER_DIR; };
 		17CF4FD76E0341855338FBC17C0940AC /* MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJProperty.h; path = MJExtension/MJProperty.h; sourceTree = "<group>"; };
 		18DB649F3FA685F1D40EA74B022E59EB /* DRTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DRTools.framework; path = DRTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1A162AFA5C85A2172AC9629344467CE9 /* DRTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRTools.release.xcconfig; sourceTree = "<group>"; };
 		1B5DE24E90D181DEF8B92671AB2977C5 /* FMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDB.h; path = src/fmdb/FMDB.h; sourceTree = "<group>"; };
 		1C1C1FA6A464FCE35E8238233D1FD41A /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UserNotifications.framework; sourceTree = DEVELOPER_DIR; };
+		1E2109DFF6C5F289258DCEB6DDFBDF06 /* LFAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFAlertController.h; path = DRTools/0.0.2/LFAlertController.h; sourceTree = "<group>"; };
 		1E31BD7CAE187F84783FFFE0C97166F4 /* MBProgressHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MBProgressHUD-Info.plist"; sourceTree = "<group>"; };
 		2107548F20252CD1D4A008F5ACE5C578 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		22C8053284562C353694672028AD7B79 /* MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtension.h; path = MJExtension/MJExtension.h; sourceTree = "<group>"; };
 		236219B3127308B151B6501D4FBDFB21 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseQueue.h; path = src/fmdb/FMDatabaseQueue.h; sourceTree = "<group>"; };
 		257F191F4D295C8EA7FA396A465D7D1F /* YIIFMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YIIFMDB.modulemap; sourceTree = "<group>"; };
-		273A9D891ACF0927AA4DEC48357854BB /* DRTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DRTools.modulemap; sourceTree = "<group>"; };
 		27E99954BA9F1C760EF94CDBE3614EE7 /* MJExtension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MJExtension-Info.plist"; sourceTree = "<group>"; };
 		2B276B0A79173A1D6E83C9B4FB9A4A57 /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MJExtension.framework; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7288F55BEF22A4638D18E6595B68FF /* FMDatabaseQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseQueue.m; path = src/fmdb/FMDatabaseQueue.m; sourceTree = "<group>"; };
 		2DA27693CCDFCA3BE3F2BFDDEE431DA2 /* FMResultSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMResultSet.m; path = src/fmdb/FMResultSet.m; sourceTree = "<group>"; };
 		2E77E376146846B7BBA822531BC8CD4A /* Pods-DRTools_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRTools_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2F49DC210C015D9EE84BBC48A7846DA8 /* LFFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFFileManager.m; path = DRTools/0.0.1/LFFileManager.m; sourceTree = "<group>"; };
+		2FFBDF93197388C285CCF875ABAAB6BB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		3288187D27A53E9640B6831F732D9DB7 /* Pods-DRTools_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRTools_Example-Info.plist"; sourceTree = "<group>"; };
 		33CCED5618E2349AC2BF7AF0397CC8F5 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
 		34BBE7A9DD9650D06700C29BD0BF78E0 /* MJExtension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-umbrella.h"; sourceTree = "<group>"; };
 		34FFDB39669A57FAF401C38F5C4C0985 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		36F3590DF441A44DD09C3E23E1D8E78F /* Pods-DRTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A5C211623A2698BF8DE7F4967328B99 /* LFTimeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFTimeManager.h; path = DRTools/0.0.2/LFTimeManager.h; sourceTree = "<group>"; };
 		3C5D23A5D79524495028A260F293C99A /* YIIFMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YIIFMDB-dummy.m"; sourceTree = "<group>"; };
 		3D7A6DDBFACBDDA619E63F951E83AD12 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabaseAdditions.h; path = src/fmdb/FMDatabaseAdditions.h; sourceTree = "<group>"; };
 		3DCFD2ABF41D8F019A31BC39CD977B91 /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		3EF3CDEFA5C1FEE98F43DCFDB26FA231 /* MJExtensionConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJExtensionConst.m; path = MJExtension/MJExtensionConst.m; sourceTree = "<group>"; };
 		424D06DC6C4A69EB9BEC1AD8D09AC716 /* NSObject+MJProperty.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJProperty.m"; path = "MJExtension/NSObject+MJProperty.m"; sourceTree = "<group>"; };
-		449552573A0440748ED76B526535E71D /* LFFMDBManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFFMDBManager.h; path = DRTools/0.0.1/LFFMDBManager.h; sourceTree = "<group>"; };
 		4662A67633A6B5DC3C3952EF8FA0859C /* Pods-DRTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRTools_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4683031AED47B1DD6E51D1BEADFA2201 /* FMResultSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMResultSet.h; path = src/fmdb/FMResultSet.h; sourceTree = "<group>"; };
 		4961C03B0045F773067E8658FE33E539 /* Pods-DRTools_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DRTools_Tests-Info.plist"; sourceTree = "<group>"; };
-		4D989B8047E5C665E62FB0857EAB217E /* LFResultCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFResultCode.h; path = DRTools/0.0.1/LFResultCode.h; sourceTree = "<group>"; };
+		4D00E31BB434D714A719C582D71B4097 /* LFPermissionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFPermissionManager.m; path = DRTools/0.0.2/LFPermissionManager.m; sourceTree = "<group>"; };
 		50404713AFE28330431883EE033F5FF7 /* NSObject+MJKeyValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJKeyValue.m"; path = "MJExtension/NSObject+MJKeyValue.m"; sourceTree = "<group>"; };
+		52ABF029256403EA42C8787EFE539707 /* DRTools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRTools.release.xcconfig; sourceTree = "<group>"; };
 		5485CC0648416A049292BA63E054811A /* MJPropertyType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyType.h; path = MJExtension/MJPropertyType.h; sourceTree = "<group>"; };
 		5637B08B9E2ACBFFF5C592E73C7E7DA3 /* YIIFMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YIIFMDB-prefix.pch"; sourceTree = "<group>"; };
+		587371423DAFA66B0F39789BBFC4043B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		591C46531185ACB8940EA8A3405282D1 /* Pods-DRTools_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-DRTools_Tests.modulemap"; sourceTree = "<group>"; };
+		5A82E8CDB5561B9FE2AC671784F5109A /* DRToolsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRToolsHeader.h; path = DRTools/0.0.2/DRToolsHeader.h; sourceTree = "<group>"; };
 		5E6B4929DA08A862EE77BAC19E16DC72 /* NSObject+MJCoding.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJCoding.h"; path = "MJExtension/NSObject+MJCoding.h"; sourceTree = "<group>"; };
+		605769631D5D0E10D7D800F408342A50 /* DRTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRTools-prefix.pch"; sourceTree = "<group>"; };
 		614C632CE8C7B27D391628776A8B5A98 /* MJExtension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJExtension-dummy.m"; sourceTree = "<group>"; };
+		61C2E01DE0C2A14A7C78983FAF8B6F6C /* LFReadBundleTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFReadBundleTools.m; path = DRTools/0.0.2/LFReadBundleTools.m; sourceTree = "<group>"; };
 		62261C05D3A061AE88B68B9AA3AD2127 /* MJExtension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MJExtension.modulemap; sourceTree = "<group>"; };
 		625C057E45B0C46A869093B8BF3C5724 /* MBProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.release.xcconfig; sourceTree = "<group>"; };
 		62C8C42AC1A65D0EE9C19B8D5A818316 /* MBProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.debug.xcconfig; sourceTree = "<group>"; };
-		670A53FA25B83630D5F654571E02364E /* LFReadBundleTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFReadBundleTools.h; path = DRTools/0.0.1/LFReadBundleTools.h; sourceTree = "<group>"; };
 		6A9E17A2021EFDA42581A7EC1927AEA5 /* MJExtensionConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJExtensionConst.h; path = MJExtension/MJExtensionConst.h; sourceTree = "<group>"; };
 		6D21B270FAAE29936EB7C4B7A63EFF1F /* FMDatabasePool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabasePool.h; path = src/fmdb/FMDatabasePool.h; sourceTree = "<group>"; };
+		6D4F5241D2BF35064E410DCED3F9B398 /* LFImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFImagePickerController.m; path = DRTools/0.0.2/LFImagePickerController.m; sourceTree = "<group>"; };
+		6EABEA071B28944D127C514A88FECDB8 /* LFKeyChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFKeyChain.m; path = DRTools/0.0.2/LFKeyChain.m; sourceTree = "<group>"; };
 		7320DBBFE6EA54F0093E5D1A761CCA6B /* Pods-DRTools_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DRTools_Example-dummy.m"; sourceTree = "<group>"; };
 		75D0A777A12BE51A7B7DDB02D3A3C987 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		76CF47059EC76B09EF648B683DED6644 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7997F2418B0D0B1D5D12D4E9620F64D5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		7A482B61462D51FF89895C1F0D08A80A /* LFImagePickerController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFImagePickerController.h; path = DRTools/0.0.1/LFImagePickerController.h; sourceTree = "<group>"; };
-		7A7C72A81A69AB294144ADB844DBD059 /* LFMessageDistributionCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFMessageDistributionCenter.h; path = DRTools/0.0.1/LFMessageDistributionCenter.h; sourceTree = "<group>"; };
+		77B84C7604903D2079A59E3568DB7092 /* LFRSAEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFRSAEncryptor.m; path = DRTools/0.0.2/LFRSAEncryptor.m; sourceTree = "<group>"; };
 		7D4B30E6F60C258A5D43474EE30CEC78 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		7ED99309481D1AE937B063330F470C57 /* Pods-DRTools_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DRTools_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		810F91A65178AA7D0C6F0112699A861D /* Pods-DRTools_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DRTools_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		838B3D8C93F21652D8BC29B95AD287B9 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
 		840703F62395E0F8B0F3FE4F571D65E7 /* FMDatabasePool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabasePool.m; path = src/fmdb/FMDatabasePool.m; sourceTree = "<group>"; };
+		87D746530FC5CFE569F34C025C35657D /* DRTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRTools-dummy.m"; sourceTree = "<group>"; };
 		8B8FAB0D627B17EDE1366984278705D9 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MBProgressHUD.framework; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CB0E794F53A2ECB715AC8E31949D830 /* DRTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRTools.debug.xcconfig; sourceTree = "<group>"; };
 		8CFA83D52DF504A296E8F66B14E7742A /* Pods-DRTools_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DRTools_Example-umbrella.h"; sourceTree = "<group>"; };
+		8F7416F9EBFA4FD3DACF6F982A2736AC /* DRTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DRTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8FEB6659A41E748F6DE2439C1988609F /* FMDB-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-prefix.pch"; sourceTree = "<group>"; };
 		93AA769395FB26919EDD909D289B1FA5 /* YIIFMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YIIFMDB-Info.plist"; sourceTree = "<group>"; };
 		93C8D1D748C912513F316E7207932923 /* MJExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.release.xcconfig; sourceTree = "<group>"; };
-		95A711EDBF3FAD0D63386EBFC4CB7DB2 /* LFRSAEncryptor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFRSAEncryptor.m; path = DRTools/0.0.1/LFRSAEncryptor.m; sourceTree = "<group>"; };
 		95E021F3DA7D4F674B09F63734B8B413 /* YIIFMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YIIFMDB.framework; path = YIIFMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96544B5000E3921D548D325E9E183752 /* Pods-DRTools_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DRTools_Example-frameworks.sh"; sourceTree = "<group>"; };
 		96A8057FDE55F82A0359D53CE65E309B /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreServices.framework; sourceTree = DEVELOPER_DIR; };
-		96ECA071226F04C5CAD9BD428144D503 /* LFPermissionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFPermissionManager.h; path = DRTools/0.0.1/LFPermissionManager.h; sourceTree = "<group>"; };
 		981FAAC10A382BFAB7BF862B71D448BD /* NSObject+MJCoding.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJCoding.m"; path = "MJExtension/NSObject+MJCoding.m"; sourceTree = "<group>"; };
-		9835A1D9D7EF8EB6B5147480A2F7F7C6 /* LFProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFProgressHUD.h; path = DRTools/0.0.1/LFProgressHUD.h; sourceTree = "<group>"; };
-		98C4BF90DB40F0638FDF116270ED66CE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		9B78819EFD671C0134E236E5936FF624 /* FMDatabase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FMDatabase.h; path = src/fmdb/FMDatabase.h; sourceTree = "<group>"; };
 		9CDABB0394DD981F58002B0B2AD4D4BA /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -272,67 +274,65 @@
 		9EA01199990FF41701338AF627E414FD /* FMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FMDB.debug.xcconfig; sourceTree = "<group>"; };
 		9EB9D82B72715176354048A1E7934749 /* FMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FMDB-umbrella.h"; sourceTree = "<group>"; };
 		9ED32EDD5F9CBFA29F876B94DBFB2372 /* MJPropertyKey.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyKey.m; path = MJExtension/MJPropertyKey.m; sourceTree = "<group>"; };
-		9EDA3D679C0205467C697E5EE662B62B /* LFImagePickerController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFImagePickerController.m; path = DRTools/0.0.1/LFImagePickerController.m; sourceTree = "<group>"; };
-		9FED9BC40C4E6FC0BE7C09F40149E3E0 /* LFKeyChain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFKeyChain.m; path = DRTools/0.0.1/LFKeyChain.m; sourceTree = "<group>"; };
 		A3A80BA70CFB7F75C5391BEBBBA8C9DA /* FMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FMDB.framework; path = FMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3C5106C12F1F35022AEBFC289C078FD /* MJExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJExtension.debug.xcconfig; sourceTree = "<group>"; };
 		A3C778DC8B8C0E32AF54E03A5080BE41 /* NSObject+MJClass.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MJClass.m"; path = "MJExtension/NSObject+MJClass.m"; sourceTree = "<group>"; };
-		A3D67732E7A131CE99A288B2204E122F /* LFFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFFileManager.h; path = DRTools/0.0.1/LFFileManager.h; sourceTree = "<group>"; };
+		A44D57C3F50C21BBC47ECB3B324BEA87 /* LFFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFFileManager.h; path = DRTools/0.0.2/LFFileManager.h; sourceTree = "<group>"; };
 		A630AC71AFC8BC86E93069D4FA3B018F /* FMDB-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FMDB-dummy.m"; sourceTree = "<group>"; };
 		A75DE87563F033BDE5D986C7F8FD0984 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		AA1B4485DABEF724715233E59F1BA131 /* LFRSAEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFRSAEncryptor.h; path = DRTools/0.0.1/LFRSAEncryptor.h; sourceTree = "<group>"; };
+		AA7203AA1D465DACF4D94A6946289ACB /* DRTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DRTools-Info.plist"; sourceTree = "<group>"; };
 		AAAE75644B3BBEDBF5B61DEB3005F493 /* YIIFMDB.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YIIFMDB.debug.xcconfig; sourceTree = "<group>"; };
+		AC03CDDE2D2CB11A9979B9F56309ADE3 /* LFUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFUserDefaults.m; path = DRTools/0.0.2/LFUserDefaults.m; sourceTree = "<group>"; };
+		AC95E182FC0903DDE4045E333FDA938F /* LFFMDBManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFFMDBManager.m; path = DRTools/0.0.2/LFFMDBManager.m; sourceTree = "<group>"; };
 		ACF4513472CDFE80995F73C3AA791E8C /* Pods_DRTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_DRTools_Tests.framework; path = "Pods-DRTools_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEC78586E97859E209702BA38DC21D99 /* YIIFMDB-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YIIFMDB-umbrella.h"; sourceTree = "<group>"; };
-		AF4FD0D182AA5F02F36AF1861014A4A7 /* LFFMDBManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFFMDBManager.m; path = DRTools/0.0.1/LFFMDBManager.m; sourceTree = "<group>"; };
 		AF7E92E8F70A9913AEA04ACA16A5E17F /* NSObject+MJClass.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJClass.h"; path = "MJExtension/NSObject+MJClass.h"; sourceTree = "<group>"; };
+		B12D1AB45B16D837D6EF9493C928131C /* LFKeyChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFKeyChain.h; path = DRTools/0.0.2/LFKeyChain.h; sourceTree = "<group>"; };
 		B21A368A14EBBE3D0BFFA271D7AE807A /* Pods-DRTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B2C35C38F29789CC14ADFEFDC79A3CB5 /* DRTools-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DRTools-dummy.m"; sourceTree = "<group>"; };
 		B2FD9F6F39F6548EDDA2F2D07EF0994E /* YIIFMDB.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YIIFMDB.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B48F10C0A14FE193AE6751D7C2C0DF8F /* MJPropertyType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJPropertyType.m; path = MJExtension/MJPropertyType.m; sourceTree = "<group>"; };
+		B4A9760CFF9C2A7800EDBD0A92A30768 /* LFMessageDistributionCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFMessageDistributionCenter.m; path = DRTools/0.0.2/LFMessageDistributionCenter.m; sourceTree = "<group>"; };
 		B4BFC1D0A287CF95BEE178E55C36F9D0 /* YIIFMDB.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YIIFMDB.h; path = YIIFMDB/YIIFMDB/YIIFMDB.h; sourceTree = "<group>"; };
-		B6ADD6360A86A0BB60DA94EF6853C482 /* LFAlertController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFAlertController.h; path = DRTools/0.0.1/LFAlertController.h; sourceTree = "<group>"; };
-		B6E6213879BBEBD887786000B9061E5E /* LFAudioTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFAudioTool.m; path = DRTools/0.0.1/LFAudioTool.m; sourceTree = "<group>"; };
 		B78359715FDDC171F9498A619FCB5C3D /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FMDatabaseAdditions.m; path = src/fmdb/FMDatabaseAdditions.m; sourceTree = "<group>"; };
 		B868999B70D106BE5028998DBF903565 /* MJFoundation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJFoundation.m; path = MJExtension/MJFoundation.m; sourceTree = "<group>"; };
 		B9C38755DFAFCCC421D758A62F4E2427 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/AudioToolbox.framework; sourceTree = DEVELOPER_DIR; };
-		BDFF33589E6B4E8DE2BC27ABF7775344 /* DRToolsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DRToolsHeader.h; path = DRTools/0.0.1/DRToolsHeader.h; sourceTree = "<group>"; };
-		BEBF298E21C72B5EF0A8F98D68924ACB /* DRTools-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRTools-prefix.pch"; sourceTree = "<group>"; };
-		BF5D5470392CC30FF92B579B5756A9FA /* LFKeyChain.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFKeyChain.h; path = DRTools/0.0.1/LFKeyChain.h; sourceTree = "<group>"; };
-		C2704ACAE2E70FA1F9BB8370FD69F22B /* DRTools-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DRTools-Info.plist"; sourceTree = "<group>"; };
-		C2D029EBB4008E25E6F0D176AEBB336A /* DRTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRTools-umbrella.h"; sourceTree = "<group>"; };
-		C3DBF537A2C230C0F62B6803C3CECE14 /* LFTimeManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFTimeManager.h; path = DRTools/0.0.1/LFTimeManager.h; sourceTree = "<group>"; };
 		C4CA2E36C8C72B027EAE49A077040536 /* MJExtension-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJExtension-prefix.pch"; sourceTree = "<group>"; };
 		C4D74F4550ECF89DBDA70792ECC6FC32 /* FMDB-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FMDB-Info.plist"; sourceTree = "<group>"; };
 		C82448062AB57FF3E8B43C470F1BC75B /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		CBA6934D92F3B38514EEA7C9DABC409D /* YIIParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YIIParameters.h; path = YIIFMDB/YIIFMDB/YIIParameters.h; sourceTree = "<group>"; };
 		CC0A51034E6625B2411927D7FEE14840 /* NSObject+MJKeyValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJKeyValue.h"; path = "MJExtension/NSObject+MJKeyValue.h"; sourceTree = "<group>"; };
+		CCFF0E5DD8B127621A5141B0344A235D /* DRTools-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DRTools-umbrella.h"; sourceTree = "<group>"; };
+		CE6FD22160EED99F71F1EBC52DFB4933 /* LFReadBundleTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFReadBundleTools.h; path = DRTools/0.0.2/LFReadBundleTools.h; sourceTree = "<group>"; };
 		D02EE8E245DAA6A791F1C82ED762485F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		D1BFF9EA36A505DFC5A4C94D5599F3EC /* LFMessageDistributionCenter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFMessageDistributionCenter.m; path = DRTools/0.0.1/LFMessageDistributionCenter.m; sourceTree = "<group>"; };
 		D2557518258AA7A966DE02EA2F657713 /* Speech.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Speech.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Speech.framework; sourceTree = DEVELOPER_DIR; };
-		D38C55F1A63E9BF89C57AF04E0AE1116 /* LFPermissionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFPermissionManager.m; path = DRTools/0.0.1/LFPermissionManager.m; sourceTree = "<group>"; };
-		D7D1E8AB1FFA7C67D4F230E58E5AC8CA /* LFProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFProgressHUD.m; path = DRTools/0.0.1/LFProgressHUD.m; sourceTree = "<group>"; };
 		D816E6F3F6826053701381CD74695045 /* MJFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJFoundation.h; path = MJExtension/MJFoundation.h; sourceTree = "<group>"; };
 		D87EB5FB6F04A352FB347D4096FB2870 /* Pods-DRTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D8AAE0A2E85DA719C54A5DDE444948E9 /* YIIParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YIIParameters.m; path = YIIFMDB/YIIFMDB/YIIParameters.m; sourceTree = "<group>"; };
 		D8ADDAD63FBBB1C8E48DBEDEA2727D86 /* YIIFMDB.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YIIFMDB.release.xcconfig; sourceTree = "<group>"; };
-		D9E53F8610507B3167088530B4DA5D04 /* DRTools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DRTools.debug.xcconfig; sourceTree = "<group>"; };
-		DD4CBBC145AC682F23073A8E00E07D6E /* LFUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFUserDefaults.h; path = DRTools/0.0.1/LFUserDefaults.h; sourceTree = "<group>"; };
+		DA842519042B0F960A0A8A129E739C73 /* LFMessageDistributionCenter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFMessageDistributionCenter.h; path = DRTools/0.0.2/LFMessageDistributionCenter.h; sourceTree = "<group>"; };
+		DA92966FD75077DF03C75A9433C3D10C /* LFAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFAlertController.m; path = DRTools/0.0.2/LFAlertController.m; sourceTree = "<group>"; };
+		DAF6BF6CF2435D2CBC3EE5F679D6682F /* LFTimeManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFTimeManager.m; path = DRTools/0.0.2/LFTimeManager.m; sourceTree = "<group>"; };
+		DB5DA47836682A80218440B7D6939C81 /* DRTools.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DRTools.modulemap; sourceTree = "<group>"; };
+		DBE31DC6BC610F1470C946AF8598179F /* LFFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFFileManager.m; path = DRTools/0.0.2/LFFileManager.m; sourceTree = "<group>"; };
 		DFDFD39475DCE56342CEA99CBF57E010 /* Pods-DRTools_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DRTools_Tests-dummy.m"; sourceTree = "<group>"; };
 		E0A0BD6707C3FF8478366EA6E7A35895 /* MJPropertyKey.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJPropertyKey.h; path = MJExtension/MJPropertyKey.h; sourceTree = "<group>"; };
+		E1D56419BD73E6BD7A13C293F2096907 /* LFAudioTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFAudioTool.m; path = DRTools/0.0.2/LFAudioTool.m; sourceTree = "<group>"; };
 		E366267F0E2A1FA5A107890FD734E5BB /* FMDB.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FMDB.modulemap; sourceTree = "<group>"; };
 		E4354F93C44820B1D99AD301438042E6 /* NSString+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MJExtension.m"; path = "MJExtension/NSString+MJExtension.m"; sourceTree = "<group>"; };
 		E6A24F10CBF1AAD2E485CCE4A73F80BC /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Photos.framework; sourceTree = DEVELOPER_DIR; };
 		E9D42B8A95057D1F28540AA011C480B3 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
-		EA2B7AAA3BB4700F85D7929FCC156DC1 /* DRTools.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = DRTools.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		EFB7E94536331659E7FE4BDDED151584 /* LFUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFUserDefaults.m; path = DRTools/0.0.1/LFUserDefaults.m; sourceTree = "<group>"; };
+		EA0AA9CF1F56C468A34ACB1EDD980F33 /* LFResultCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFResultCode.h; path = DRTools/0.0.2/LFResultCode.h; sourceTree = "<group>"; };
+		ECB04A3A6EEBBAB1A12A690582E15E80 /* LFRSAEncryptor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFRSAEncryptor.h; path = DRTools/0.0.2/LFRSAEncryptor.h; sourceTree = "<group>"; };
 		F1802F8BB031A8FC107DC007CED45C40 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		F1E5728B5D2F5F5AB978BAE3DECD8ED3 /* Pods-DRTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DRTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F22A11FB58CA1A390863C6D175ACAD7D /* LFUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFUserDefaults.h; path = DRTools/0.0.2/LFUserDefaults.h; sourceTree = "<group>"; };
+		F35EF351FA55111A12E2B08599E3C73D /* LFProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFProgressHUD.m; path = DRTools/0.0.2/LFProgressHUD.m; sourceTree = "<group>"; };
+		F3D987816C4EF7E4863AA97157DABC0A /* LFPermissionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFPermissionManager.h; path = DRTools/0.0.2/LFPermissionManager.h; sourceTree = "<group>"; };
 		F9FB817880A6CA67DF3B1236FCC27781 /* NSObject+MJProperty.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MJProperty.h"; path = "MJExtension/NSObject+MJProperty.h"; sourceTree = "<group>"; };
 		FA2AB6D94B8BD0B79D2DA956DD84E507 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Contacts.framework; sourceTree = DEVELOPER_DIR; };
+		FDB5BAFB4CBF1769538E8EEA7CBE5DCA /* LFProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LFProgressHUD.h; path = DRTools/0.0.2/LFProgressHUD.h; sourceTree = "<group>"; };
 		FE91EDBEF801BD5F364D1C52FDD01D32 /* NSString+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MJExtension.h"; path = "MJExtension/NSString+MJExtension.h"; sourceTree = "<group>"; };
 		FF62EFCD723515D351980EE766E03CFA /* MJExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FFC5BBC199FE6C662DB0FEB6E83EA85E /* LFAlertController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LFAlertController.m; path = DRTools/0.0.1/LFAlertController.m; sourceTree = "<group>"; };
 		FFFB855CEFCFC94E3B2CAB15A50B1877 /* Pods-DRTools_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DRTools_Tests-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -442,39 +442,39 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		156298BD170AD16FB91943B1199B9636 /* DRTools */ = {
+		181314408620ADF22C24891AD2E557E7 /* DRTools */ = {
 			isa = PBXGroup;
 			children = (
-				BDFF33589E6B4E8DE2BC27ABF7775344 /* DRToolsHeader.h */,
-				B6ADD6360A86A0BB60DA94EF6853C482 /* LFAlertController.h */,
-				FFC5BBC199FE6C662DB0FEB6E83EA85E /* LFAlertController.m */,
-				0D3E4CD5B82A6D5F60F1136AB229D2D6 /* LFAudioTool.h */,
-				B6E6213879BBEBD887786000B9061E5E /* LFAudioTool.m */,
-				A3D67732E7A131CE99A288B2204E122F /* LFFileManager.h */,
-				2F49DC210C015D9EE84BBC48A7846DA8 /* LFFileManager.m */,
-				449552573A0440748ED76B526535E71D /* LFFMDBManager.h */,
-				AF4FD0D182AA5F02F36AF1861014A4A7 /* LFFMDBManager.m */,
-				7A482B61462D51FF89895C1F0D08A80A /* LFImagePickerController.h */,
-				9EDA3D679C0205467C697E5EE662B62B /* LFImagePickerController.m */,
-				BF5D5470392CC30FF92B579B5756A9FA /* LFKeyChain.h */,
-				9FED9BC40C4E6FC0BE7C09F40149E3E0 /* LFKeyChain.m */,
-				7A7C72A81A69AB294144ADB844DBD059 /* LFMessageDistributionCenter.h */,
-				D1BFF9EA36A505DFC5A4C94D5599F3EC /* LFMessageDistributionCenter.m */,
-				96ECA071226F04C5CAD9BD428144D503 /* LFPermissionManager.h */,
-				D38C55F1A63E9BF89C57AF04E0AE1116 /* LFPermissionManager.m */,
-				9835A1D9D7EF8EB6B5147480A2F7F7C6 /* LFProgressHUD.h */,
-				D7D1E8AB1FFA7C67D4F230E58E5AC8CA /* LFProgressHUD.m */,
-				670A53FA25B83630D5F654571E02364E /* LFReadBundleTools.h */,
-				04613E9ADE9D603CB62389C85B1ADCFE /* LFReadBundleTools.m */,
-				4D989B8047E5C665E62FB0857EAB217E /* LFResultCode.h */,
-				AA1B4485DABEF724715233E59F1BA131 /* LFRSAEncryptor.h */,
-				95A711EDBF3FAD0D63386EBFC4CB7DB2 /* LFRSAEncryptor.m */,
-				C3DBF537A2C230C0F62B6803C3CECE14 /* LFTimeManager.h */,
-				007666FB63F65696CBEA02B2BA7991D2 /* LFTimeManager.m */,
-				DD4CBBC145AC682F23073A8E00E07D6E /* LFUserDefaults.h */,
-				EFB7E94536331659E7FE4BDDED151584 /* LFUserDefaults.m */,
-				75F38E5A20F4FD4E333E27B3804FBD5A /* Pod */,
-				6C101249CC3BAFB94EB65E569876D6DA /* Support Files */,
+				5A82E8CDB5561B9FE2AC671784F5109A /* DRToolsHeader.h */,
+				1E2109DFF6C5F289258DCEB6DDFBDF06 /* LFAlertController.h */,
+				DA92966FD75077DF03C75A9433C3D10C /* LFAlertController.m */,
+				10213D795626F75EE063125DDB10A036 /* LFAudioTool.h */,
+				E1D56419BD73E6BD7A13C293F2096907 /* LFAudioTool.m */,
+				A44D57C3F50C21BBC47ECB3B324BEA87 /* LFFileManager.h */,
+				DBE31DC6BC610F1470C946AF8598179F /* LFFileManager.m */,
+				09E0BE5D4927A88EDBA10F1D2BD8C32D /* LFFMDBManager.h */,
+				AC95E182FC0903DDE4045E333FDA938F /* LFFMDBManager.m */,
+				015D5CC300315E232DAFB7749ADB5FD2 /* LFImagePickerController.h */,
+				6D4F5241D2BF35064E410DCED3F9B398 /* LFImagePickerController.m */,
+				B12D1AB45B16D837D6EF9493C928131C /* LFKeyChain.h */,
+				6EABEA071B28944D127C514A88FECDB8 /* LFKeyChain.m */,
+				DA842519042B0F960A0A8A129E739C73 /* LFMessageDistributionCenter.h */,
+				B4A9760CFF9C2A7800EDBD0A92A30768 /* LFMessageDistributionCenter.m */,
+				F3D987816C4EF7E4863AA97157DABC0A /* LFPermissionManager.h */,
+				4D00E31BB434D714A719C582D71B4097 /* LFPermissionManager.m */,
+				FDB5BAFB4CBF1769538E8EEA7CBE5DCA /* LFProgressHUD.h */,
+				F35EF351FA55111A12E2B08599E3C73D /* LFProgressHUD.m */,
+				CE6FD22160EED99F71F1EBC52DFB4933 /* LFReadBundleTools.h */,
+				61C2E01DE0C2A14A7C78983FAF8B6F6C /* LFReadBundleTools.m */,
+				EA0AA9CF1F56C468A34ACB1EDD980F33 /* LFResultCode.h */,
+				ECB04A3A6EEBBAB1A12A690582E15E80 /* LFRSAEncryptor.h */,
+				77B84C7604903D2079A59E3568DB7092 /* LFRSAEncryptor.m */,
+				3A5C211623A2698BF8DE7F4967328B99 /* LFTimeManager.h */,
+				DAF6BF6CF2435D2CBC3EE5F679D6682F /* LFTimeManager.m */,
+				F22A11FB58CA1A390863C6D175ACAD7D /* LFUserDefaults.h */,
+				AC03CDDE2D2CB11A9979B9F56309ADE3 /* LFUserDefaults.m */,
+				3473947A52F021A703FAA358EFFE1B36 /* Pod */,
+				53B49808C135E3FEC371D9DFD49B16EA /* Support Files */,
 			);
 			name = DRTools;
 			path = ../..;
@@ -517,6 +517,16 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		3473947A52F021A703FAA358EFFE1B36 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8F7416F9EBFA4FD3DACF6F982A2736AC /* DRTools.podspec */,
+				2FFBDF93197388C285CCF875ABAAB6BB /* LICENSE */,
+				587371423DAFA66B0F39789BBFC4043B /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		3C59B695D5C82B3CEBC73B1CC27A54B9 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -545,27 +555,27 @@
 			path = YIIFMDB;
 			sourceTree = "<group>";
 		};
-		6BF8463AA67B4C28D829DAF595A5F912 /* Development Pods */ = {
+		53B49808C135E3FEC371D9DFD49B16EA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				156298BD170AD16FB91943B1199B9636 /* DRTools */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		6C101249CC3BAFB94EB65E569876D6DA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				273A9D891ACF0927AA4DEC48357854BB /* DRTools.modulemap */,
-				B2C35C38F29789CC14ADFEFDC79A3CB5 /* DRTools-dummy.m */,
-				C2704ACAE2E70FA1F9BB8370FD69F22B /* DRTools-Info.plist */,
-				BEBF298E21C72B5EF0A8F98D68924ACB /* DRTools-prefix.pch */,
-				C2D029EBB4008E25E6F0D176AEBB336A /* DRTools-umbrella.h */,
-				D9E53F8610507B3167088530B4DA5D04 /* DRTools.debug.xcconfig */,
-				1A162AFA5C85A2172AC9629344467CE9 /* DRTools.release.xcconfig */,
+				DB5DA47836682A80218440B7D6939C81 /* DRTools.modulemap */,
+				87D746530FC5CFE569F34C025C35657D /* DRTools-dummy.m */,
+				AA7203AA1D465DACF4D94A6946289ACB /* DRTools-Info.plist */,
+				605769631D5D0E10D7D800F408342A50 /* DRTools-prefix.pch */,
+				CCFF0E5DD8B127621A5141B0344A235D /* DRTools-umbrella.h */,
+				8CB0E794F53A2ECB715AC8E31949D830 /* DRTools.debug.xcconfig */,
+				52ABF029256403EA42C8787EFE539707 /* DRTools.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/DRTools";
+			sourceTree = "<group>";
+		};
+		6BF8463AA67B4C28D829DAF595A5F912 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				181314408620ADF22C24891AD2E557E7 /* DRTools */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		750C318CB148F143664AC7611186EF15 /* FMDB */ = {
@@ -576,16 +586,6 @@
 			);
 			name = FMDB;
 			path = FMDB;
-			sourceTree = "<group>";
-		};
-		75F38E5A20F4FD4E333E27B3804FBD5A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				EA2B7AAA3BB4700F85D7929FCC156DC1 /* DRTools.podspec */,
-				7997F2418B0D0B1D5D12D4E9620F64D5 /* LICENSE */,
-				98C4BF90DB40F0638FDF116270ED66CE /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		79F5AF5376EA132679722811A2F7E1B3 /* MJExtension */ = {
@@ -768,21 +768,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				9B903D5A6916B3989D8960424E44F476 /* DRTools-umbrella.h in Headers */,
-				F7829D31312B0F30B0B421A588FE65B4 /* DRToolsHeader.h in Headers */,
-				F09DD04EC8919A04F0AA471ABEAC140F /* LFAlertController.h in Headers */,
-				BAFAAD63CA780BAF46177F6B125DA57C /* LFAudioTool.h in Headers */,
-				BE8E61F531DA8B161C7DA7F7535CA13B /* LFFileManager.h in Headers */,
-				B4CC5987F2DF895D19CC78909117D6BD /* LFFMDBManager.h in Headers */,
-				93B8F5C7D40CBE1ECC357B0B6C1E40FF /* LFImagePickerController.h in Headers */,
-				4E560B2A978799ABCA24CFAE5F39FCEC /* LFKeyChain.h in Headers */,
-				A5F710D1C4966DD4288487047B4A2E61 /* LFMessageDistributionCenter.h in Headers */,
-				0F94F69E24024456FE2101B68AF5DEEC /* LFPermissionManager.h in Headers */,
-				F1B2E9F6ADA11214A9FEBD19ACBD4FE5 /* LFProgressHUD.h in Headers */,
-				281363B79F20152CFCAA0661C3658ADF /* LFReadBundleTools.h in Headers */,
-				8F3895CAE1216F3445D74A6827F28422 /* LFResultCode.h in Headers */,
-				D4B5D8692594DEA375DDBF99218B6FCA /* LFRSAEncryptor.h in Headers */,
-				09EDB3300D7C964C7C8D5B8539EB0D15 /* LFTimeManager.h in Headers */,
-				09A7643875B82A74AD58E3F270EC5F4F /* LFUserDefaults.h in Headers */,
+				48C5C5581921C7862F0E289B71594ACB /* DRToolsHeader.h in Headers */,
+				E2BE155C5F085D4A546576B64F6765BD /* LFAlertController.h in Headers */,
+				5AB4323C97BF884A0988F035B08B9EAA /* LFAudioTool.h in Headers */,
+				075F20038D28BC3BCDDBAC357B4F6952 /* LFFileManager.h in Headers */,
+				E4731E7DBBF0CEF5179E151C8D7CDB5B /* LFFMDBManager.h in Headers */,
+				7EB69C62C9AF8AE06F5F6561EECF15A0 /* LFImagePickerController.h in Headers */,
+				4A8B9C1CC850ED3909B0088E1F3513E0 /* LFKeyChain.h in Headers */,
+				1F6AC437DA5A5C2AF68B47C1AB387D49 /* LFMessageDistributionCenter.h in Headers */,
+				DA2642CDDFEC236E4CAB14DF12FC8CCA /* LFPermissionManager.h in Headers */,
+				A60074A454AF635150F530C4313156F9 /* LFProgressHUD.h in Headers */,
+				C1086F7D294D381D36008776967D1C6B /* LFReadBundleTools.h in Headers */,
+				F5F47B947B41B13478DC7335AD449F83 /* LFResultCode.h in Headers */,
+				B1095D4E62FB6FF62B022A6415E7B3EA /* LFRSAEncryptor.h in Headers */,
+				E65819A45FE3AE95D1233BA4B3E10394 /* LFTimeManager.h in Headers */,
+				D6D21A574E47ABEC43E039B9282FA0E2 /* LFUserDefaults.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1080,19 +1080,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				EE3412330BFC168B087CC23835AC2C43 /* DRTools-dummy.m in Sources */,
-				D2C627A6B388CB0DF95C9FEC9263A36C /* LFAlertController.m in Sources */,
-				8172D1FD53EB9003866ADCDADAFF1CE9 /* LFAudioTool.m in Sources */,
-				9C023E5F2CC34D10DDAD7DB42B5BCFDA /* LFFileManager.m in Sources */,
-				7016E26BEECF26BAC2D7DD86C345A1B9 /* LFFMDBManager.m in Sources */,
-				34AF9E2B0F2C9A30565AA75695F19790 /* LFImagePickerController.m in Sources */,
-				0AD8EE32390BFCA92C251058BA94824A /* LFKeyChain.m in Sources */,
-				36C68CC40A495D3709C6793EDCEC34AA /* LFMessageDistributionCenter.m in Sources */,
-				8F727A6441F6B33C5A0489BB3897FAEF /* LFPermissionManager.m in Sources */,
-				6B1F66F85E77104B495F2D97176C2FB2 /* LFProgressHUD.m in Sources */,
-				A5F76802BB9128DD828AA976FE3F3EE3 /* LFReadBundleTools.m in Sources */,
-				A2087B3CC2C40CD2A11E90FD46E57361 /* LFRSAEncryptor.m in Sources */,
-				AB62A2DBFE6E73F63506A519010BA2E5 /* LFTimeManager.m in Sources */,
-				67F4EB7A48F89085D9DDEA08A8981EF0 /* LFUserDefaults.m in Sources */,
+				94270C6E0DAFB14767EF0669E8BAE7B1 /* LFAlertController.m in Sources */,
+				D644A7FB6B5C8083A898A5A35EA3169A /* LFAudioTool.m in Sources */,
+				D6787048ED21AB59A162923EA421856F /* LFFileManager.m in Sources */,
+				8B060D32F248782E7ACCAD7864F18C36 /* LFFMDBManager.m in Sources */,
+				C0ADF1358B636E6EE7E5A1CEC754F429 /* LFImagePickerController.m in Sources */,
+				4B50D138134285CD953A8257B09EDBB2 /* LFKeyChain.m in Sources */,
+				978B8BD0A3A834095005793E4FD3DA21 /* LFMessageDistributionCenter.m in Sources */,
+				59D3EC6E5D7B18D68643F05BF907043A /* LFPermissionManager.m in Sources */,
+				D83F31BB0A63EDDEE562321F3C507AC2 /* LFProgressHUD.m in Sources */,
+				BEAB9F3B9CBAB89050983AEDC04DD06A /* LFReadBundleTools.m in Sources */,
+				A1A63DD8DE94BB4AF25732A0039EFD61 /* LFRSAEncryptor.m in Sources */,
+				25C8CD8888A413416B5FC98A3CB34C5C /* LFTimeManager.m in Sources */,
+				FDC4F62E64E3AC0E1B265DE07AA338A5 /* LFUserDefaults.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1276,7 +1276,7 @@
 		};
 		371B551D77CA05C8BB721B95A9447E04 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1A162AFA5C85A2172AC9629344467CE9 /* DRTools.release.xcconfig */;
+			baseConfigurationReference = 52ABF029256403EA42C8787EFE539707 /* DRTools.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1493,7 +1493,7 @@
 		};
 		56388E44544582823C6B26AA9FF68833 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D9E53F8610507B3167088530B4DA5D04 /* DRTools.debug.xcconfig */;
+			baseConfigurationReference = 8CB0E794F53A2ECB715AC8E31949D830 /* DRTools.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

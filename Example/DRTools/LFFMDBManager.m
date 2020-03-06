@@ -7,12 +7,11 @@
 //
 
 #import "LFFMDBManager.h"
-#import "LFFileManager.h"
-#import "LFProgressHUD.h"
 #import <MJExtension/MJExtension.h>
 
-@interface LFFMDBManager()
-@property (nonatomic, strong) YIIFMDB *yiiFMDB;
+@interface LFFMDBManager() {
+    YIIFMDB *_yiiFMDB;
+}
 @end
 
 @implementation LFFMDBManager
@@ -28,38 +27,48 @@
     return _FMDBManager;
 }
 
-/// 初始化
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        [self initData];
+    }
+    return self;
+}
+
+/// 创建数据库 实例话句柄
 - (void)initData {
     NSString *documentPath = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) objectAtIndex:0];
     
-    NSString *sqlPath = [NSString stringWithFormat:@"%@/data.sqlite",documentPath];
+    NSString *sqlPath = [NSString stringWithFormat:@"%@/lfdata.sqlite",documentPath];
+    NSLog(@"sqlite = %@",sqlPath);
 
     if ([[NSFileManager defaultManager] fileExistsAtPath:sqlPath] == NO) {
-        NSString *bundleSQLPath = [[NSBundle mainBundle] pathForResource:@"data" ofType:@"sqlite"];
-        if ([LFFileManager copyItemAtPath:bundleSQLPath toPath:sqlPath]) {
-            NSLog(@"copy success");
-        } else {
-            NSLog(@"copy failed");
-        }
+        NSError *error = nil;
+        [@"" writeToFile:sqlPath atomically:YES encoding:NSUTF8StringEncoding error:&error];
+        if (error) NSLog(@"创建数据库失败 = %@",error);
+        else NSLog(@"创建数据库成功");
     } else {
         NSLog(@"数据库已经存在了");
     }
-    
-    _yiiFMDB = [YIIFMDB shareDatabaseForName:@"data.sqlite" path:documentPath];
+
+    _yiiFMDB = [YIIFMDB shareDatabaseForName:@"lfdata.sqlite" path:documentPath];
+#if DEBUG
     _yiiFMDB.shouldOpenDebugLog = YES;
-    
-    [self createTableList];
+#else
+    _yiiFMDB.shouldOpenDebugLog = NO;
+#endif
 }
 
-/// 创建数据库里的表
-- (void)createTableList {
-    /// 创建表
-//    if ([_yiiFMDB existTable:kSECENTABLE]) {
-//        NSLog(@"表已经存在");
-//    } else {
-//        BOOL isScucess = [_yiiFMDB createTableWithModelClass:[SecenModel class] excludedProperties:nil tableName:kSECENTABLE];
-//        NSLog(@"表创建结果 = %d",isScucess);
-//    }
+/// 创建表（根据模型）
+- (BOOL)createTableWithTableName:(NSString *)tableName modelClass:(Class)modelClass {
+    if ([_yiiFMDB existTable:tableName]) {
+        NSLog(@"表已经存在");
+        return YES;
+    } else {
+        BOOL isSuccessed = [_yiiFMDB createTableWithModelClass:modelClass excludedProperties:nil tableName:tableName];
+        NSLog(@"表创建结果 = %d",isSuccessed);
+        return isSuccessed;
+    }
 }
 
 /// 插入一条数据到数据库
@@ -74,10 +83,25 @@
     if (ret) {
         NSLog(@"场的表插入一条数据成功");
     } else {
-        [LFProgressHUD showAlert:@"数据库插入数据失败"];
-        
+        NSLog(@"数据库插入数据失败");
     }
     return ret;
+}
+
+/// 批量插入到数据库
+- (void)insertModels:(NSArray *)models tableName:(NSString *)tableName {
+    __weak typeof(YIIFMDB *)weakFMDB = _yiiFMDB;
+    
+    NSLog(@"1");
+    [_yiiFMDB inTransaction:^(BOOL *rollback) {
+        NSLog(@"2");
+
+        [weakFMDB insertWithModels:models tableName:tableName];
+        NSLog(@"3");
+
+    }];
+    NSLog(@"4");
+
 }
 
 /// 删除一条数据从数据库
@@ -95,7 +119,7 @@
     if (ret) {
         NSLog(@"删除一条数据成功");
     } else {
-        [LFProgressHUD showAlert:@"删除一条数据库记录失败"];
+        NSLog(@"删除一条数据失败");
     }
     return ret;
 }
@@ -118,14 +142,13 @@
     if (ret) {
         NSLog(@"更新一条数据库记录成功");
     } else {
-        [LFProgressHUD showAlert:@"某一条数据库记录更新失败"];
+        NSLog(@"更新一条数据库记录失败");
     }
     return ret;
 }
 
-static int dataListLimit = 30;
-/// 获取某表的所有数据 lastId为0，就是指获取最新的 dataListLimit 条，否则一直向前获取
-- (id)getDataListWithLastId:(NSString *)lastId tableName:(NSString *)tableName model:(NSObject *)model {
+/// 获取某表的所有数据 lastId为0，就是指获取最新的 limitCount 条，否则一直向前获取
+- (id)getDataListWithLastId:(NSString *)lastId tableName:(NSString *)tableName model:(NSObject *)model limitCount:(NSInteger)limitCount {
     __block NSMutableArray *cacheArray = [NSMutableArray array];
     
     __weak typeof(YIIFMDB *)weakFMDB = _yiiFMDB;
@@ -137,8 +160,8 @@ static int dataListLimit = 30;
     } else {
         //        [parameters orWhere:@"cPowerTimeSecond" value:lastId relationType:YIIParametersRelationTypeLessThan];
     }
-    // 数量限制在30个
-    parameters.limitCount = dataListLimit;
+    // 数量限制在limitCount个
+    parameters.limitCount = limitCount;
     // 根据时间戳进行降序
     //    [parameters orderByColumn:@"cPowerTimeSecond" orderType:YIIParametersOrderTypeDesc];
     

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'DRTools'
-  s.version          = '0.0.1'
+  s.version          = '0.0.2'
   s.summary          = 'DRTools.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ DRTools action.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'DRTools/0.0.1/**/*'
+  s.source_files = 'DRTools/0.0.2/**/*'
   
   # s.resource_bundles = {
   #   'DRTools' => ['DRTools/Assets/*.png']

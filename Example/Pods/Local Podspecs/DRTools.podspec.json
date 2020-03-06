@@ -1,6 +1,6 @@
 {
   "name": "DRTools",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "summary": "DRTools.",
   "description": "DRTools action.",
   "homepage": "https://www.baidu.com",
@@ -13,12 +13,12 @@
   },
   "source": {
     "git": "https://github.com/bestColor/DRTools.git",
-    "tag": "0.0.1"
+    "tag": "0.0.2"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "DRTools/0.0.1/**/*",
+  "source_files": "DRTools/0.0.2/**/*",
   "frameworks": [
     "UIKit",
     "Foundation",
